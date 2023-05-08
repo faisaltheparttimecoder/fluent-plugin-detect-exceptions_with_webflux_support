@@ -3,7 +3,7 @@
 -----
 This is a fork of 
 {fluent-plugin-detect-exceptions}[https://github.com/GoogleCloudPlatform/fluent-plugin-detect-exceptions]
-this fork test and tries to resolve the spring webflux multiline java stack
+this fork test and tries to resolve the spring webflux multiline java stack based on this {pull request}[https://github.com/GoogleCloudPlatform/fluent-plugin-detect-exceptions/pull/88]
 -----
 
 fluent-plugin-detect-exceptions is an
