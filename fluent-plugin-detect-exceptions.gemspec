@@ -1,15 +1,16 @@
 Gem::Specification.new do |gem|
-  gem.name          = 'fluent-plugin-detect-exceptions'
+  gem.name          = 'fluent-plugin-detect-exceptions-with-webflux-support'
   gem.description   = <<-DESCRIPTION
    Fluentd output plugin which detects exception stack traces in a stream of
    JSON log messages and combines all single-line messages that belong to the
    same stack trace into one multi-line message.
    This is an official Google Ruby gem.
+   NOTE: This is a fork that tries to support spring webflux stack
   DESCRIPTION
   gem.summary       = \
-    'fluentd output plugin for combining stack traces as multi-line JSON logs'
+    'fluentd output plugin for combining stack traces as multi-line JSON logs with webflux support'
   gem.homepage      = \
-    'https://github.com/GoogleCloudPlatform/fluent-plugin-detect-exceptions'
+    'https://github.com/faisaltheparttimecoder/fluent-plugin-detect-exceptions_with_webflux_support'
   gem.license       = 'Apache-2.0'
   gem.version       = '0.0.15'
   gem.authors       = ['Stackdriver Agents']
