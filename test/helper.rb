@@ -43,4 +43,4 @@ unless ENV.key?('VERBOSE')
   $log = nulllogger # rubocop:disable Style/GlobalVars
 end
 
-require 'fluent/plugin/out_detect_exceptions'
+require 'fluent/plugin/out_detect_exceptions_with_webflux_support'
