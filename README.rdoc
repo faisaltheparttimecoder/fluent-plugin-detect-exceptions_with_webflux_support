@@ -1,5 +1,9 @@
 = Exception detector plugin for {fluentd}[http://github.com/fluent/fluentd]
 
+This is a fork of 
+{fluent-plugin-detect-exceptions}[https://github.com/GoogleCloudPlatform/fluent-plugin-detect-exceptions]
+this fork test and tries resolve the spring webflux multiline java stack
+
 fluent-plugin-detect-exceptions is an
 {output plugin for fluentd}[http://docs.fluentd.org/articles/output-plugin-overview]
 which scans a log stream text messages or JSON records for multi-line exception
