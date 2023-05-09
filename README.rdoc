@@ -5,22 +5,22 @@ This is a fork of
 {fluent-plugin-detect-exceptions}[https://github.com/GoogleCloudPlatform/fluent-plugin-detect-exceptions]
 this fork test and tries to resolve the spring webflux multiline java stack based on this {pull request}[https://github.com/GoogleCloudPlatform/fluent-plugin-detect-exceptions/pull/88]
 
+You can navigate to this [fluentd-javastack-sample-app repo](https://github.com/faisaltheparttimecoder/fluentd-javastack-sample-app) to find all the necessary apps or yaml's to test this fork
+
 To push to rubygem.org 
 
 -- update fluent-plugin-detect-exceptions.gemspec file
-```
+
 vi fluent-plugin-detect-exceptions.gemspec
-```
 
 -- Build the gem
-```
+
 gem build fluent-plugin-detect-exceptions.gemspec
-```
 
 -- Push the gem
-```
+
 gem push fluent-plugin-detect-exceptions-with-webflux-support-<version>.gem
-```
+
 -----
 
 fluent-plugin-detect-exceptions is an
